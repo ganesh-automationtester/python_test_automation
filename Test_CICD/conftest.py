@@ -25,3 +25,4 @@ def setup(request):
         allure.attach(driver.get_screenshot_as_png(), name="Test failed", attachment_type=AttachmentType.PNG)
     driver.quit()
     print('test end')
+
